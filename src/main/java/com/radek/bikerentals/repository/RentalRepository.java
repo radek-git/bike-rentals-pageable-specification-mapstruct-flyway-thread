@@ -14,6 +14,8 @@ public interface RentalRepository extends JpaRepository<Rental, Long> {
 
     Page<Rental> findAllByUser_Username(String username, Pageable pageable);
 
+
+
     Optional<Rental> findAllByBike_SerialNumber(String serialNumber);
 
 
