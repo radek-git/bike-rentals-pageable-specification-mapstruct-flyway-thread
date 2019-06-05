@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
               <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +95,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="radek-git &lt;radoslaw.szpionkowski@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -132,12 +150,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepoitoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" />
       </list>
     </option>
   </component>
@@ -431,14 +449,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/validation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -613,7 +631,7 @@
       <workItem from="1559428315311" duration="275000" />
       <workItem from="1559430925548" duration="638000" />
       <workItem from="1559550141607" duration="470000" />
-      <workItem from="1559656770471" duration="5623000" />
+      <workItem from="1559656770471" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1558422980549</created>
@@ -720,7 +738,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559727413547</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first commit">
+      <created>1559727697976</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559727697976</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first commit">
+      <created>1559727792625</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559727792625</updated>
+    </task>
+    <task id="LOCAL-00018" summary="first commit">
+      <created>1559728492788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559728492788</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269811000" />
+    <option name="totallyTimeSpent" value="271221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +810,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -794,7 +833,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.27545553" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1101,16 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1217,7 +1246,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
