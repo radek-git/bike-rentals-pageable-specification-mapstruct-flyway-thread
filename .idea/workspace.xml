@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="test classes deleted" />
+    <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="170">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -80,7 +82,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" />
       </list>
     </option>
   </component>
@@ -173,7 +175,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="width" value="1943" />
     <option name="height" value="1057" />
@@ -611,7 +613,7 @@
       <workItem from="1559428315311" duration="275000" />
       <workItem from="1559430925548" duration="638000" />
       <workItem from="1559550141607" duration="470000" />
-      <workItem from="1559656770471" duration="5151000" />
+      <workItem from="1559656770471" duration="5623000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1558422980549</created>
@@ -711,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559726927331</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="first commit">
+      <created>1559727413547</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559727413547</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -747,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269339000" />
+    <option name="totallyTimeSpent" value="269811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +814,8 @@
     <MESSAGE value="thread" />
     <MESSAGE value="views and validation password" />
     <MESSAGE value="test classes deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="test classes deleted" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/PricingRepository.java">
@@ -1206,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="170">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
