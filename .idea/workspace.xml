@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="test classes deleted" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/UserRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-467">
+              <caret line="74" column="14" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_active</find>
+      <find>vaa</find>
+      <find>fly</find>
+      <find>/</find>
+      <find>content</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/ColorMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeLocation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/BikeRentalsApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/APIController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/APIControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/RentalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/ColorController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/ColorControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositpryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeLocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeLocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeLocationMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/PricingMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/RentalMapperTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeLocationDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/utils/JSONUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/PricingControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepoitoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bike-rentals" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bike-rentals" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bike-rentals" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bike-rentals" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="specification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="password" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bike-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bike-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikerentals" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/validation" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.radek.bikerentals.controller" />
+      <recent name="com.radek.bikerentals.mapper" />
+      <recent name="com.radek.bikerentals.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.radek.bikerentals.config" />
+      <recent name="com.radek.bikerentals.annotation" />
+      <recent name="com.radek.bikerentals.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Uzytkownik\Projekty\bike-rentals\src\main\java\com\radek\bikerentals\validation" />
+      <recent name="C:\Users\Uzytkownik\Projekty\bike-rentals\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BikeRentalsApplication">
+    <configuration name="PricingRepositoryTest1.findPricingByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bike-rentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.PricingRepositoryTest1" />
+      <option name="METHOD_NAME" value="findPricingByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricingRepositoryTest1.shouldFindPricingById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bike-rentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.PricingRepositoryTest1" />
+      <option name="METHOD_NAME" value="shouldFindPricingById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bike-rentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
+      <option name="METHOD_NAME" value="shouldFindRentalByBikeSerialNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalRepositoryTest1.shouldFindRentalById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bike-rentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
+      <option name="METHOD_NAME" value="shouldFindRentalById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalRepositoryTest1.shouldReturnRentalList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bike-rentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
+      <option name="METHOD_NAME" value="shouldReturnRentalList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeRentalsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bike-rentals" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.radek.bikerentals.BikeRentalsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PricingRepositoryTest1.shouldFindPricingById" />
+      <item itemvalue="JUnit.PricingRepositoryTest1.findPricingByName" />
+      <item itemvalue="Spring Boot.BikeRentalsApplication" />
+      <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalById" />
+      <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" />
+      <item itemvalue="JUnit.RentalRepositoryTest1.shouldReturnRentalList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" />
+        <item itemvalue="JUnit.RentalRepositoryTest1.shouldReturnRentalList" />
+        <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalById" />
+        <item itemvalue="JUnit.PricingRepositoryTest1.findPricingByName" />
+        <item itemvalue="JUnit.PricingRepositoryTest1.shouldFindPricingById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="" />
+      <created>1557469815944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557469815944</updated>
+      <workItem from="1557469818769" duration="7710000" />
+      <workItem from="1557581700455" duration="25992000" />
+      <workItem from="1557908750616" duration="9639000" />
+      <workItem from="1557990248494" duration="31666000" />
+      <workItem from="1558329665797" duration="10871000" />
+      <workItem from="1558349218972" duration="15702000" />
+      <workItem from="1558380728100" duration="17754000" />
+      <workItem from="1558468259480" duration="12148000" />
+      <workItem from="1558527952255" duration="3277000" />
+      <workItem from="1558532802507" duration="45682000" />
+      <workItem from="1558894571820" duration="15189000" />
+      <workItem from="1559071723951" duration="2946000" />
+      <workItem from="1559074996424" duration="14210000" />
+      <workItem from="1559142707223" duration="14226000" />
+      <workItem from="1559310633720" duration="703000" />
+      <workItem from="1559327253333" duration="280000" />
+      <workItem from="1559328060618" duration="2175000" />
+      <workItem from="1559330456088" duration="3439000" />
+      <workItem from="1559337843208" duration="942000" />
+      <workItem from="1559342298003" duration="99000" />
+      <workItem from="1559342400023" duration="148000" />
+      <workItem from="1559402312799" duration="749000" />
+      <workItem from="1559426937605" duration="85000" />
+      <workItem from="1559428315311" duration="275000" />
+      <workItem from="1559430925548" duration="638000" />
+      <workItem from="1559550141607" duration="470000" />
+      <workItem from="1559656770471" duration="5151000" />
+    </task>
+    <task id="LOCAL-00001" summary="thread">
+      <created>1558422980549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558422980550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="thread">
+      <created>1558423076924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558423076924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="thread">
+      <created>1558469712513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558469712513</updated>
+    </task>
+    <task id="LOCAL-00004" summary="views and validation password">
+      <created>1558895290845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558895290845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="views and validation password">
+      <created>1558895496311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558895496311</updated>
+    </task>
+    <task id="LOCAL-00006" summary="views and validation password">
+      <created>1558895607936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558895607936</updated>
+    </task>
+    <task id="LOCAL-00007" summary="views and validation password">
+      <created>1558903853573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558903853573</updated>
+    </task>
+    <task id="LOCAL-00008" summary="views and validation password">
+      <created>1558903991177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558903991177</updated>
+    </task>
+    <task id="LOCAL-00009" summary="views and validation password">
+      <created>1558987105852</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558987105853</updated>
+    </task>
+    <task id="LOCAL-00010" summary="views and validation password">
+      <created>1559425161123</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559425161123</updated>
+    </task>
+    <task id="LOCAL-00011" summary="views and validation password">
+      <created>1559428569806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559428569806</updated>
+    </task>
+    <task id="LOCAL-00012" summary="views and validation password">
+      <created>1559726237747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559726237747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="views and validation password">
+      <created>1559726576058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559726576058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test classes deleted">
+      <created>1559726927331</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559726927331</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RentalRepositoryTest1_shouldFindRentalById - 2019.06.04 at 16h 29m 35s.xml">
+      <configuration name="RentalRepositoryTest1.shouldFindRentalById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldFindRentalById - 2019.06.04 at 16h 31m 51s.xml">
+      <configuration name="RentalRepositoryTest1.shouldFindRentalById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 16h 36m 52s.xml">
+      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 42m 37s.xml">
+      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 46m 35s.xml">
+      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 47m 53s.xml">
+      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 49m 01s.xml">
+      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 52m 52s.xml">
+      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 17h 34m 36s.xml">
+      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 17h 36m 21s.xml">
+      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="269339000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Learn" order="8" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.30868167" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3268817" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" weight="0.5169029" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39764202" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867134" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.27545553" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32867134" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32550606" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="thread" />
+    <MESSAGE value="views and validation password" />
+    <MESSAGE value="test classes deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="test classes deleted" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/PricingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/ColorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/specification/UserSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/utils/JSONUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/PricingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/config/SchedulingConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="30" column="258" selection-start-line="30" selection-start-column="258" selection-end-line="30" selection-end-column="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeLocationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="43" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="42" column="51" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/UserRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bike-rentals</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+insert into pricing (name, price) values ( 'rental', 1 );
