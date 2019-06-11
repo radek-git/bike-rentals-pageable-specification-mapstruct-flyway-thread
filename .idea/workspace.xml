@@ -1,7 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="" />
+    <list default="true" id="7c8231f7-09a0-4f88-a5bb-1ed49333ddb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeRepairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/AbstractDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/AuthenticatedUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeRepairDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeRepairMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/MethodSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__data_user_roles.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__data_bike_repairs.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeLocationControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeRepairControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/RentalControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeRepairMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_rentals_h2_db.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeLocationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/RentalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/RentalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeLocationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeLocationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/ColorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/ColorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/PricingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/PricingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/RentalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/RentalDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/ColorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/ColorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/RentalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/RentalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeLocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeLocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3__data_colors.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__data_colors.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V4__data_bikes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__data_bikes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V5__data_bike_locations.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__data_bike_locations.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V6__data_rentals.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__data_rentals.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V7__data_pricing.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8__data_pricing.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/APIControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/APIControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/BikeLocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/BikeLocationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/RentalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/RentalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/BikeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/BikeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/BikeLocationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/BikeLocationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/ColorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/ColorDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/ColorDTOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/PricingDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/PricingDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/RentalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/RentalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/AbstractEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/Bike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/BikeRepair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/BikeRepair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/BikeLocationMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/BikeLocationMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/BikeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/BikeMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/ColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/ColorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/ColorMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/ColorMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/PricingMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/PricingMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/RentalMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/RentalMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/RentalMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/RentalMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/mapper/UserMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/BikeLocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/BikeLocationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/BikeRepairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/BikeRepairRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/security/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/security/UserDetailsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/BikeLocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/BikeLocationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/BikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/BikeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/ColorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/ColorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/PricingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/PricingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/RentalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/RentalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowBikesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowBikesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowPricingView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowPricingView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowRentalsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowRentalsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowUsersView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/radek/bikerentals/ui/ShowUsersView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V2__data_users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__data_users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V3__data_colors.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V4__data_bikes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V5__data_bike_locations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V6__data_rentals.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V6__data_rentals.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V7__data_pricing.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/dto/ColorDTOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeLocationMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeLocationMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/ColorMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/ColorMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/PricingMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/PricingMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/RentalMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/RentalMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/bike-rentals.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/controller/APIControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/controller/APIControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/controller/UserControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/mapper/RentalMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/mapper/RentalMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/mapper/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/mapper/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepairRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepairRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/BikeRepositoryTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/ColorRepositoryTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/PricingRepositoryTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/radek/bikerentals/repository/RentalRepositoryTest1.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,65 +155,43 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="38" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/UserRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-467">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48454157">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="718">
+                  <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -98,6 +203,8 @@
       <find>fly</find>
       <find>/</find>
       <find>content</find>
+      <find>empty</find>
+      <find>admin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,62 +214,61 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/ColorMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeLocation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/BikeRentalsApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/APIController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/APIControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/MethodSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/RentalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/ColorController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/ColorControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositpryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeLocationMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeLocationMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeLocationMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/PricingMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/RentalMapperTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeLocationDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/RentalMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/PricingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/ColorMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/PricingControllerTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/ColorControllerTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/RentalControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeLocationControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/utils/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/PricingControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeLocationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeLocationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V6__data_bike_locations.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/ColorDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V4__data_colors.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V6__data_rentals.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V8__data_pricing.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V7__data_bike_locations.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V3__user_roles.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Bike.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V9__data_bike_repairs.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeRepairDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeRepairController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeRepairService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUserImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/dodom" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeRepairMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeRepairMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeRepairControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepoitoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java" />
       </list>
     </option>
   </component>
@@ -211,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -443,7 +550,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,8 +602,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BikeRentalsApplication">
-    <configuration name="PricingRepositoryTest1.findPricingByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeLocationRepositoryTest1.shouldReturnBikeLocationById">
+    <configuration name="BikeLocationRepositoryTest1.shouldReturnBikeLocationById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bike-rentals" />
       <extension name="coverage">
         <pattern>
@@ -506,62 +612,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.PricingRepositoryTest1" />
-      <option name="METHOD_NAME" value="findPricingByName" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.BikeLocationRepositoryTest1" />
+      <option name="METHOD_NAME" value="shouldReturnBikeLocationById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PricingRepositoryTest1.shouldFindPricingById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeRepairControllerTest.saveRepairIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bike-rentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="PATTERN" value="com.radek.bikerentals.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.PricingRepositoryTest1" />
-      <option name="METHOD_NAME" value="shouldFindPricingById" />
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.controller.BikeRepairControllerTest" />
+      <option name="METHOD_NAME" value="saveRepairIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeRepairControllerTest.shouldReturnListOfRepairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bike-rentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="PATTERN" value="com.radek.bikerentals.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
-      <option name="METHOD_NAME" value="shouldFindRentalByBikeSerialNumber" />
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.controller.BikeRepairControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnListOfRepairs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RentalRepositoryTest1.shouldFindRentalById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeRepairControllerTest.shouldReturnRepairById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bike-rentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radek.bikerentals.repository.*" />
+          <option name="PATTERN" value="com.radek.bikerentals.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
-      <option name="METHOD_NAME" value="shouldFindRentalById" />
+      <option name="PACKAGE_NAME" value="com.radek.bikerentals.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.controller.BikeRepairControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnRepairById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RentalRepositoryTest1.shouldReturnRentalList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeRepairRepositoryTest.shouldFindBikeRepairById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bike-rentals" />
       <extension name="coverage">
         <pattern>
@@ -570,8 +676,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.radek.bikerentals.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.RentalRepositoryTest1" />
-      <option name="METHOD_NAME" value="shouldReturnRentalList" />
+      <option name="MAIN_CLASS_NAME" value="com.radek.bikerentals.repository.BikeRepairRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldFindBikeRepairById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -585,20 +691,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PricingRepositoryTest1.shouldFindPricingById" />
-      <item itemvalue="JUnit.PricingRepositoryTest1.findPricingByName" />
       <item itemvalue="Spring Boot.BikeRentalsApplication" />
-      <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalById" />
-      <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" />
-      <item itemvalue="JUnit.RentalRepositoryTest1.shouldReturnRentalList" />
+      <item itemvalue="JUnit.BikeRepairRepositoryTest.shouldFindBikeRepairById" />
+      <item itemvalue="JUnit.BikeRepairControllerTest.shouldReturnListOfRepairs" />
+      <item itemvalue="JUnit.BikeRepairControllerTest.shouldReturnRepairById" />
+      <item itemvalue="JUnit.BikeRepairControllerTest.saveRepairIsOk" />
+      <item itemvalue="JUnit.BikeLocationRepositoryTest1.shouldReturnBikeLocationById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" />
-        <item itemvalue="JUnit.RentalRepositoryTest1.shouldReturnRentalList" />
-        <item itemvalue="JUnit.RentalRepositoryTest1.shouldFindRentalById" />
-        <item itemvalue="JUnit.PricingRepositoryTest1.findPricingByName" />
-        <item itemvalue="JUnit.PricingRepositoryTest1.shouldFindPricingById" />
+        <item itemvalue="JUnit.BikeLocationRepositoryTest1.shouldReturnBikeLocationById" />
+        <item itemvalue="JUnit.BikeRepairControllerTest.saveRepairIsOk" />
+        <item itemvalue="JUnit.BikeRepairControllerTest.shouldReturnRepairById" />
+        <item itemvalue="JUnit.BikeRepairControllerTest.shouldReturnListOfRepairs" />
+        <item itemvalue="JUnit.BikeRepairRepositoryTest.shouldFindBikeRepairById" />
       </list>
     </recent_temporary>
   </component>
@@ -638,7 +744,9 @@
       <workItem from="1559428315311" duration="275000" />
       <workItem from="1559430925548" duration="638000" />
       <workItem from="1559550141607" duration="470000" />
-      <workItem from="1559656770471" duration="7283000" />
+      <workItem from="1559656770471" duration="17239000" />
+      <workItem from="1559735027669" duration="12141000" />
+      <workItem from="1559806324544" duration="50755000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1558422980549</created>
@@ -780,43 +888,57 @@
       <option name="project" value="LOCAL" />
       <updated>1559729624367</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="test">
+      <created>1559729869397</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559729869397</updated>
+    </task>
+    <task id="LOCAL-00022" summary="controller's tests">
+      <created>1559836856425</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559836856425</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RentalRepositoryTest1_shouldFindRentalById - 2019.06.04 at 16h 29m 35s.xml">
-      <configuration name="RentalRepositoryTest1.shouldFindRentalById" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnListOfRepairs - 2019.06.10 at 17h 48m 03s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnListOfRepairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldFindRentalById - 2019.06.04 at 16h 31m 51s.xml">
-      <configuration name="RentalRepositoryTest1.shouldFindRentalById" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnListOfRepairs - 2019.06.10 at 17h 49m 12s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnListOfRepairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 16h 36m 52s.xml">
-      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnListOfRepairs - 2019.06.10 at 17h 53m 08s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnListOfRepairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 42m 37s.xml">
-      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnRepairById - 2019.06.10 at 17h 56m 07s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnRepairById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 46m 35s.xml">
-      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnRepairById - 2019.06.10 at 18h 02m 55s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnRepairById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 47m 53s.xml">
-      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_shouldReturnRepairById - 2019.06.10 at 18h 05m 56s.xml">
+      <configuration name="BikeRepairControllerTest.shouldReturnRepairById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 49m 01s.xml">
-      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    <history-entry file="BikeRepairControllerTest_saveRepairIsOk - 2019.06.10 at 18h 11m 32s.xml">
+      <configuration name="BikeRepairControllerTest.saveRepairIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldReturnRentalList - 2019.06.04 at 16h 52m 52s.xml">
-      <configuration name="RentalRepositoryTest1.shouldReturnRentalList" configurationId="JUnit" />
+    <history-entry file="BikeLocationRepositoryTest1_shouldReturnBikeLocationById - 2019.06.10 at 18h 34m 08s.xml">
+      <configuration name="BikeLocationRepositoryTest1.shouldReturnBikeLocationById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 17h 34m 36s.xml">
-      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    <history-entry file="BikeLocationRepositoryTest1_shouldReturnBikeLocationById - 2019.06.10 at 18h 35m 08s.xml">
+      <configuration name="BikeLocationRepositoryTest1.shouldReturnBikeLocationById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentalRepositoryTest1_shouldFindRentalByBikeSerialNumber - 2019.06.04 at 17h 36m 21s.xml">
-      <configuration name="RentalRepositoryTest1.shouldFindRentalByBikeSerialNumber" configurationId="JUnit" />
+    <history-entry file="BikeLocationRepositoryTest1_shouldReturnBikeLocationById - 2019.06.10 at 18h 36m 02s.xml">
+      <configuration name="BikeLocationRepositoryTest1.shouldReturnBikeLocationById" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271471000" />
+    <option name="totallyTimeSpent" value="344323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,7 +953,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,10 +962,10 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.30868167" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.28938907" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3268817" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" weight="0.5169029" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" weight="0.30653805" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39764202" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -854,11 +976,11 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.27545553" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3279743" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32550606" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32388663" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
@@ -876,310 +998,399 @@
     <MESSAGE value="test classes deleted" />
     <MESSAGE value="first commit" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="controller's tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller's tests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/PricingRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/ColorDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/ColorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/RentalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/PricingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/ColorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeLocationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/UserDTO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/RentalDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/specification/UserSpecification.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/ColorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="346" column="42" selection-start-line="346" selection-start-column="42" selection-end-line="346" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/BikeRentalsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/utils/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/PricingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="340">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/config/SchedulingConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__data_bikes.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-8243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__data_colors.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/config/MyConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V6__data_rentals.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="500" selection-start-line="500" selection-end-line="500" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V8__data_pricing.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V7__data_bike_locations.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V3__data_user_roles.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/AbstractEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="30" column="258" selection-start-line="30" selection-start-column="258" selection-end-line="30" selection-end-column="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeLocationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Pricing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeRepairMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/radek/bikerentals/mapper/BikeMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/Bike.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        <state relative-caret-position="187">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/BikeRepair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="239">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V9__data_bike_repairs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__data_users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="143" lean-forward="true" selection-start-column="138" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/BikeRepairService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/security/CurrentUserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/BikeRepairRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/UserRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="-306">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeRepairMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        <state relative-caret-position="446">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dodom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeControllerTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="37" column="63" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="58" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/controller/BikeRepairController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/mapper/BikeRepairMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/dto/BikeRepairDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/controller/BikeRepairControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1570">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/BikeRentalsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1188,97 +1399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeLocationRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="43" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepairRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/ColorRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="42" column="51" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="42" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/UserRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/mapper/BikeMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/PricingRepositoryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/RentalRepositoryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/radek/bikerentals/repository/RentalRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/radek/bikerentals/repository/BikeRepositoryTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
